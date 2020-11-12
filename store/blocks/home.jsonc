@@ -5,8 +5,8 @@
       "info-card#button-left",
       "flex-layout.row",
      " flex-layout.col",
-     "shelf"
-
+     "shelf",
+     "slider-layout#home"
     ]
   },
 
@@ -45,6 +45,7 @@
     }
   },
 
+  //Info card
   "info-card#button-right" : {
     "props": {
       "isFullModeStyle": false,
@@ -71,7 +72,4 @@
       "blockClass": "metal"
     }
   }
-
-  
-
 }
