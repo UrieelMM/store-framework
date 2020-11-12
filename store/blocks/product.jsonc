@@ -21,7 +21,7 @@
       "verticalAlign": "middle",
       "preventVerticalStretch": true
     },
-    "children" : ["product-name", "product-price", "product-button"]
+    "children" : ["product-name", "product-price", "buy-button"]
   },
 
   "product-price": {
