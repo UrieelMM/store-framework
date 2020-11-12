@@ -30,7 +30,7 @@
     "children": ["flex-layout.col#filter", "flex-layout.col#search"]
   },
 
-  "flex-layour.col#filter": {
+  "flex-layout.col#filter": {
     "props": {
       "width": "20%"
     },
