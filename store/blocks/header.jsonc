@@ -2,11 +2,10 @@
   "header": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
+
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
-
-  //Desktop
 
   "header-layout.desktop": {
     "children": ["header-row#notification", "header-row#main"]
@@ -25,8 +24,6 @@
     }
   },
 
-  //Mobile
-
   "header-row#main-mobile": {
     "children": ["logo", "header-spacer", "minicart", "login"],
 
@@ -43,7 +40,6 @@
     }
   },
 
-  //Bloque login
   "login": {
     "props": {
       "showIconProfile": true,
@@ -57,7 +53,6 @@
     }
   },
 
-  //Rich text header
   "rich-text#header": {
     "props": {
       "text": "**Free Shipping on orders over $50**",
