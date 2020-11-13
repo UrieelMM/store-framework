@@ -5,6 +5,9 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
+
+  //Desktop
+
   "header-layout.desktop": {
     "children": ["header-row#notification", "header-row#main"]
   },
@@ -20,6 +23,8 @@
       "fullWidth": false
     }
   },
+
+  //Mobile
 
   "header-layout.mobile": {
     "children": ["header-row#main-mobile", "header-row#search"]
