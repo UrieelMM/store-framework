@@ -27,10 +27,6 @@
 
   //Mobile
 
-  "header-layout.mobile": {
-    "children": ["header-row#main-mobile", "header-row#search"]
-  },
-
   "header-row#main-mobile": {
     "children": ["logo", "header-spacer", "minicart", "login"],
 
