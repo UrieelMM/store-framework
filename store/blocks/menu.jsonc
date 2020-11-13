@@ -11,7 +11,6 @@
     }
   },
 
-  //Major
   "menu-item#major-appliances": {
     "children": ["vtex.menu@2.x:submenu#major"]
   },
@@ -30,7 +29,6 @@
     }
   },
 
-  //Small
   "menu-item#small-appliances": {
     "children": ["vtex.menu@2.x:submenu#small"]
   },
@@ -46,8 +44,7 @@
     }
   },
 
-  //Electronics
-  "menu-item#electronics": {
+  "menu-item#electronicss": {
     "children": ["vtex.menu@2.x:submenu#electronics"]
   },
 
