@@ -13,7 +13,7 @@
   "search-result-layout.customQuery": {
     "props": {
       "querySchema": {
-        "orderByField": "OrderByReleaseDatDESC",
+        "orderByField": "OrderByReleaseDateDESC",
         "hideUnavaliableItems": true,
         "maxItemsPerPage": 8,
         "queryField": "Camera",
