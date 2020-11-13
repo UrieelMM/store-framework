@@ -5,13 +5,14 @@
       "menu-item#small-appliances",
       "menu-item#electronics"
     ],
+
     "props": {
       "orientation": "horizontal"
     }
   },
 
   "menu-item#major-appliances": {
-    "children": ["vtex.menu@2.x:submenu#major"]
+    "blocks": ["vtex.menu@2.x:submenu#major"]
   },
   "vtex.menu@2.x:submenu#major": {
     "children": ["vtex.menu@2.x:menu#major"]
@@ -29,7 +30,7 @@
   },
 
   "menu-item#small-appliances": {
-    "children": ["vtex.menu@2.x:submenu#small"]
+    "blocks": ["vtex.menu@2.x:submenu#small"]
   },
 
   "vtex.menu@2.x:submenu#small": {
@@ -44,7 +45,7 @@
   },
 
   "menu-item#electronicss": {
-    "children": ["vtex.menu@2.x:submenu#electronics"]
+    "blocks": ["vtex.menu@2.x:submenu#electronics"]
   },
 
   "vtex.menu@2.x:submenu#electronics": {

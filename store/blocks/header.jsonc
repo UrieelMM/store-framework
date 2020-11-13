@@ -13,6 +13,15 @@
       "header-row#menu"
     ]
   },
+  //Menu
+
+  "header-row#menu": {
+    "children": [
+      "header-spacer",
+      "vtex.menu@2.x:menu#categories",
+      "header-spacer"
+    ]
+  },
   "header-layout.mobile": {
     "children": [
       "header-row#notification",
@@ -68,15 +77,5 @@
       "text": "**Free Shipping on orders over $50**",
       "textPosition": "CENTER"
     }
-  },
-
-  //Menu
-
-  "header-row#menu": {
-    "children": [
-      "header-spacer",
-      "vtex.menu@2.x:menu#categories",
-      "header-spacer"
-    ]
   }
 }
